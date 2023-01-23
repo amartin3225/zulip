@@ -987,6 +987,7 @@ td.pointer {
     display: block;
     font-size: 12px;
     font-weight: normal;
+    font-variant-numeric: tabular-nums;
     text-align: right;
     opacity: 0.6;
     color: var(--color-default-text);
@@ -1257,6 +1258,7 @@ td.pointer {
     line-height: 18px;
     text-align: right;
     font-variant: all-small-caps;
+    font-variant-numeric: tabular-nums;
     letter-spacing: 0.02em;
     display: flex;
     align-items: center;
@@ -1563,6 +1565,7 @@ div.message_table {
             font-size: calc(15em / 14);
             letter-spacing: 0.02em;
             font-variant: all-small-caps;
+            font-variant-numeric: tabular-nums;
         }
     }
 }
